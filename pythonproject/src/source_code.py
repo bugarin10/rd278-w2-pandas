@@ -1,3 +1,7 @@
+"""
+This module takes a csv and returns statistics about it
+"""
+
 import pandas
 
 def descriptive_statistics(data):

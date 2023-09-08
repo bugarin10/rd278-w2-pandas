@@ -1,17 +1,24 @@
-"""This script does not take any modules"""
-# test source code to make the python template worflow stable
-
-import os
 import pandas as pd
-import sys
 
-def descriptive_statistics(data):    
+def descriptive_statistics(data):
+    """
+    Calculate descriptive statistics for a DataFrame.
+
+    Parameters:
+    data (pd.DataFrame): The input DataFrame containing numeric data.
+
+    Returns:
+    pd.DataFrame: A DataFrame containing descriptive statistics.
+    """
     return data.describe()
 
+if __name__ == "__main__":
+    # Remove unused imports
+    # import os
+    # import sys
 
+    # Read the CSV file
+    data = pd.read_csv("pythonproject/src/data/spotify-2023.csv", encoding="ISO-8859-1")
 
-if __name__ =="__main__":
-    data=pd.read_csv("pythonproject/src/data/spotify-2023.csv",encoding="ISO-8859-1")
+    # Print descriptive statistics
     print(descriptive_statistics(data))
-    
-    

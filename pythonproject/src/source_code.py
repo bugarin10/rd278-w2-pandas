@@ -18,7 +18,7 @@ if __name__ == "__main__":
     # import sys
 
     # Read the CSV file
-    data = pandas.read_csv("pythonproject/src/data/spotify-2023.csv", encoding="ISO-8859-1")
+    data_sample = pandas.read_csv("pythonproject/src/data/spotify-2023.csv", encoding="ISO-8859-1")
 
     # Print descriptive statistics
-    print(descriptive_statistics(data))
+    print(descriptive_statistics(data_sample))

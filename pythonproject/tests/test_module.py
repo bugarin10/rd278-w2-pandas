@@ -3,7 +3,9 @@ import os
 import pandas
 import sys
 #As the module src is not in the test directory I'll append it
-sys.path.append('/workspaces/rd278-w2-pandas/pythonproject/src/')
+
+dir=os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'src'))
+sys.path.append(dir)
 import source_code  # Import your source_code module correctly
 
 

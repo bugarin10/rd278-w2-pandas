@@ -13,5 +13,5 @@ def descriptive_statistics(data):
 if __name__ =="__main__":
     data=pd.read_csv("pythonproject/src/data/spotify-2023.csv",encoding="ISO-8859-1")
     print(descriptive_statistics(data))
-    print(type(descriptive_statistics(data)))
+    
     

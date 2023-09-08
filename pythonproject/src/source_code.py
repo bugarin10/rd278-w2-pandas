@@ -11,8 +11,7 @@ def descriptive_statistics(data):
 
 
 if __name__ =="__main__":
-    #current_dir = os.path.dirname(os.path.abspath(__file__))
-    #new_dir = current_dir + '/data'
-    #sys.path.insert(0, new_dir)
-    data=pd.read_csv("pythonproject/src/data/spotify.csv")
-    data.describe()
+    data=pd.read_csv("pythonproject/src/data/spotify-2023.csv",encoding="ISO-8859-1")
+    print(descriptive_statistics(data))
+    print(type(descriptive_statistics(data)))
+    

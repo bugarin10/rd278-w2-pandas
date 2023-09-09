@@ -11,3 +11,9 @@ Data is loaded using **panda.read_csv**, and the function **dataframe.describe()
 Besides linting and formating, the code had two test:
 1. Checks if the file path is a csv file
 2. Checks if the output is a DataFrame
+
+# A Scatter plot
+
+Just for the sake of ilustration, a plot was added to see the relationship between the instrumentalness and energy percentages of every song.
+
+![Scatter plot](https://github.com/bugarin10/rd278-w2-pandas/blob/main/plot.png)

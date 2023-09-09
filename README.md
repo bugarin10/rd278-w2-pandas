@@ -1,3 +1,5 @@
+[![Test workflow for Python template](https://github.com/bugarin10/rd278-w2-pandas/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/bugarin10/rd278-w2-pandas/actions/workflows/pythonapp.yml)
+
 # Descriptive Statistics 
 
 ## Goals:
